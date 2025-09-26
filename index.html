@@ -17,6 +17,10 @@
             color: #FFF;
             padding: 0 10px;
         }
+
+        body {
+            background-color: black;
+        }
     </style>
 </head>
 
@@ -51,7 +55,7 @@
                 e.preventDefault()
                 navegarViaAjax(url, seletorDestino)
             }
-        }) 
+        })
 
 
         window.onpopstate = e => {
